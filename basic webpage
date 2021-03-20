@@ -1,0 +1,200 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images (2)</title>
+
+    <style>
+        button {
+            cursor: pointer;
+            border: 1px solid #555;
+            text-align: center;
+            padding: 5px;
+            margin-left: 8px;
+            position: fixed;
+            right: 1px;
+            top: 1px;
+            border: 2px darkolivegreen;
+            border-radius: 8px;
+        }
+        
+        .dark {
+            background-color: #222;
+            color: #e6e6e6;
+        }
+    </style>
+
+    <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark");
+        }
+    </script>
+
+</head>
+
+
+
+<body>
+
+    <!-- Link -->
+    <span style="text-align: center;">
+        <a href="https://www.google.com/" target="_ankit"><b>Search with Google</b> </a>
+    </span> asojbsaigcgxicigxiuc
+
+    <span>
+        <button onclick="myFunction()">DARK MODE</button>
+    </span>
+    <br>
+    <hr>
+
+    <!-- IMAGES -->
+    <div style="padding: 10px; text-align: center;">
+        <img src="https://picsum.photos/200/300" alt="lorem piscum" height="300" width="250" style="border: 2px; border-radius: 15px;">
+        <img src="https://picsum.photos/270/300" alt="lorem piscum" height="300" width="250" style="border: 2px; border-radius: 15px;">
+        <a href="https://picsum.photos/210/300" target="_parent">
+            <img src="https://picsum.photos/210/300" alt="lorem piscum" height="300" width="250" style="border: 2px; border-radius: 15px;">
+        </a>
+
+        <br> <br> <strong>Refresh to get Random Images:)</strong>
+
+    </div>
+    <hr>
+
+
+    <!-- TABLE -->
+    <div style="position: sticky; top: 10px;z-index: 10;">
+        <table border="1px" align="center">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Phone No.</th>
+                    <th>E-Mail</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Ankit Verma</td>
+                    <td>XXXX809</td>
+                    <td>ankitve@hcl.com</td>
+                </tr>
+                <tr>
+                    <td>Yash Rastogi</td>
+                    <td>XXXX752</td>
+                    <td>yashrasto12@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Sarandeep Singh</td>
+                    <td>XXXX879</td>
+                    <td>saran66@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Sumit Bhardwaj</td>
+                    <td>XXXX529</td>
+                    <td>bhardwajsum@hcl.com</td>
+                </tr>
+                <tr>
+                    <td>Pratik Sharma</td>
+                    <td>XXXX831</td>
+                    <td>sharma.prat@hcl.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+
+    <!-- LIST -->
+    <!-- ordered list -->
+    <p>
+        <b>Some</b> <strong>Quick</strong> <i>Random</i> <em>Facts</em> :)
+        <ol type="a">
+            <li>If you have 3 quarters, 4 dimes, and 4 pennies, you have $1.19. You also have the largest amount of money in coins without being able to make change for a dollar.
+            </li>
+            <br>
+            <li>
+                2<sup>2</sup> eqauls to 4.
+            </li>
+            <br>
+            <li>
+                The numbers<bdo dir="rtl"> '172' can be found </bdo>on the back of the U.S. $5 dollar bill in the bushes at the base of the Lincoln Memorial.</li>
+            <br>
+            <li>
+                President Kennedy was the fastest random speaker in the world with upwards of 350 words per minute.</li>
+            <br>
+            <li>
+                In the average lifetime, a person will walk the equivalent of 5 times around the equator.</li>
+
+        </ol>
+
+        <!-- description list -->
+        <h3>This is how a <span title="Description List">DL</span> appears :)</h3>
+
+        <dl>
+            <dt>1. Apple</dt>
+            <dd>A red colored fruit.</dd>
+            <dt>2. Orange</dt>
+            <dd>An orange colored fruit.</dd>
+            <dt>3. Banana</dt>
+            <dd>A yellow colored fruit.</dd>
+
+        </dl>
+    </p>
+    <hr>
+
+    <h4 style="text-align: center;">Thanks for Visiting! :)</h4>
+
+    <!-- FORM Elements -->
+    <h2>Form Content</h2>
+    <form action="#" style="text-align: center;">
+        <fieldset>
+            <legend>Person Info:</legend>
+            <label for="">Name: </label>
+            <input type="text" name="" id="" required> <br> <br>
+
+            <label for="">Select Range: </label>0
+            <input type="range" name="" id="" min="0" max="100">100<br><br>
+            <label for="">Search: </label>
+
+            <input type="search" placeholder="enter text here" id=""><br><br>
+            <label for="">Select Gender: </label>
+            <input type="radio" name="" id="" value="Male"> Male
+            <input type="radio" name="" id="" value="Female"> Female<br><br>
+
+            <label for="">Select your City: </label>
+            <select name="" id="">
+            <option value="None" selected>none</option> 
+            <option value="">Ajmer</option>
+            <option value="">Rampur</option>
+            <option value="">Moradabad</option>
+            <option value="">Noida</option>
+            <option value="">Chandigarh</option> 
+        </select>
+            <br><br>
+            <label for="">DOB: </label>
+            <input type="date" name="" id="">
+            <br> <br>
+
+            <label for="">Upload your Image: </label>
+            <input type="file" name="file" id="file" accept=""> <br><br>
+            <label for="">Select your lucky No: </label>
+            <input type="number" name="" id="" max="10" min="1"> <br><br>
+        </fieldset>
+
+        <input list="browsers" name="browser" id="browser">
+        <datalist id="browsers">
+        <option value="Edge">
+        <option value="Firefox">
+         <option value="Chrome">
+        <option value="Opera">
+         <option value="Safari">
+    </datalist>
+
+        <input type="submit" value="Submit"> / <input type="reset" value="Reset Data">
+
+    </form>
+
+</body>
+
+</html>
